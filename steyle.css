@@ -10,7 +10,7 @@ body {
 
 .head1 {
     background: linear-gradient(90deg, rgb(0, 108, 155), rgb(0, 136, 173));
-    padding: 20px 109px;
+    padding: 20px 10px;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
@@ -131,7 +131,6 @@ body {
 }
 
 img {
-    /*====================================== تغير اسم العنصر ما عم يعمل التعديلات==================================*/
     width: 100%;
     margin-top: 30px;
     height: 30%;
@@ -328,3 +327,4 @@ ol li {
     }
 
 }
+
