@@ -10,7 +10,7 @@ body {
 
 .head1 {
     background: linear-gradient(90deg, rgb(0, 108, 155), rgb(0, 136, 173));
-    padding: 20px;
+    padding: 20px 109px;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
@@ -326,4 +326,5 @@ ol li {
     .head3 ul li a i {
         font-size: 18px;
     }
+
 }
