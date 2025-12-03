@@ -1,0 +1,175 @@
+img {
+  vertical-align: middle;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.head2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wo {
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.works1 {
+  margin: 15px;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.work-tanim {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  background-color: #006c9b;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  direction: rtl;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 50px auto 25%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 112%;
+  padding: 16px;
+  margin-top: -22px;
+  color: #eee;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 13%;
+  user-select: none;
+  background-color: #079400;
+  border: 2px solid #000;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  direction: ltr;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 35px;
+  padding: 20px;
+  position: absolute;
+  bottom: -5%;
+  width: 100%;
+  text-align: center;
+  background-color: #079400;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.numbertext {
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: -15px;
+  background-color: #079400;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .wo {
+    font-size: 23px;
+    margin: 0px;
+  }
+
+  .text {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+
+  .numbertext {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .prev,
+  .next {
+    width: 50px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .slideshow-container {
+    max-width: 95%;
+  }
+
+  img {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .wo {
+    font-size: 30px;
+  }
+
+  .work-tanim {
+    width: 80%;
+  }
+
+  .text {
+    font-size: 17px;
+  }
+
+  .slideshow-container {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 993px) {
+  .text {
+    font-size: 22px;
+  }
+}
